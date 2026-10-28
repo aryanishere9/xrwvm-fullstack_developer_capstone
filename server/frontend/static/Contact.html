@@ -1,0 +1,83 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Best Cars Dealership</title>
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .contact-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .contact-img {
+      width: 40%;
+      min-width: 260px;
+      max-width: 420px;
+      margin: 10px;
+    }
+    .contact-details {
+      width: 45%;
+      min-width: 260px;
+      margin: 10px;
+      font-size: 1.1rem;
+    }
+    .contact-details h4 {
+      color: darkcyan;
+      margin-top: 14px;
+    }
+  </style>
+</head>
+<body>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" aria-current="page" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%; margin-bottom: 5%;">
+    <div class="banner">
+      <h1>Contact Us</h1>
+      <p>Questions about a car, a booking or a review? Our customer care team is happy to help.</p>
+    </div>
+    <div class="contact-row">
+      <img class="contact-img" src="/static/contactus.png" alt="Contact Best Cars customer care">
+      <div class="contact-details">
+        <h4>Head Office</h4>
+        <p>Best Cars Dealership<br>1500 Main Street, Suite 200<br>Kansas City, Kansas 66101, USA</p>
+
+        <h4>Phone</h4>
+        <p>Customer care: +1 (913) 555-0142<br>Sales: +1 (913) 555-0177</p>
+
+        <h4>Email</h4>
+        <p>Customer care: support@bestcarsdealer.com<br>Sales: sales@bestcarsdealer.com</p>
+
+        <h4>Working Hours</h4>
+        <p>Monday to Friday: 9:00 AM – 7:00 PM<br>Saturday: 10:00 AM – 5:00 PM<br>Sunday: Closed</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
